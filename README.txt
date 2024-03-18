@@ -12,6 +12,8 @@ python Assignment3Q1.py
 TESTING INSTRUCTIONS:
 1. First enter "1" from the main menu to create the table. Functions won't be able to work without the initial table creation.
 2. Enter "2" from the main menu to insert inital data which is helpful for testing.
+!! You can also directly paste the queries that are found in 'Database.txt' into PostgreSQL to create and insert the initial data. It has the same function, so you can choose.
+
 3. If you want to view all students, enter "3"
 4. If you want to add a student, enter "4". You will be prompted to enter a first name, last name, email, and enrollment date.
 5. If you want to change a student email, enter "5". You will be prompted to enter a student ID and a new email.
