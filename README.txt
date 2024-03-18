@@ -10,12 +10,15 @@ LAUNCH INSTRUCTIONS:
 python Assignment3Q1.py
 
 TESTING INSTRUCTIONS:
-1. Use Database.txt to populate the data base named "Assignment3" and create the tables and initial data 
-2. Test the various functions:
-	a) getAllStudents(): retrieves and displays all records from the students table
-	b) addStudent(first_name, last_name, email, enrollment_date): inserts a new student record into the students table
-	c) updateStudentEmail(student_id, new_email): updates the email address with a specified student_id
-	d) deleteStudent(student_id): deletes the record of the student with the specified student_id
-	
+1. First enter "1" from the main menu to create the table. Functions won't be able to work without the initial table creation.
+2. Enter "2" from the main menu to insert inital data which is helpful for testing.
+3. If you want to view all students, enter "3"
+4. If you want to add a student, enter "4". You will be prompted to enter a first name, last name, email, and enrollment date.
+5. If you want to change a student email, enter "5". You will be prompted to enter a student ID and a new email.
+6. If you want to delete a student, enter "6". You will be prompted to enter a student ID.
+7. Exit the program by entering "0"
+
+** You will be able to see all changes reflected in PostgreSQL if the database is connected.
+
 LINK TO DEMO VIDEO:
-https://www.youtube.com/watch?v=pLSo1KoBvn4
+https://www.youtube.com/watch?v=VrQwrF3p978
